@@ -38,7 +38,7 @@ async function openGPSPort()
                 filters: 
                 [
                     {
-                        usbVendorId: 0x1546, // GPS USB Vendor ID, can be found by using lsusb
+                        usbVendorId: 0xCafe, // GPS USB Vendor ID, can be found by using lsusb
                     },                       // You may need to add your GPS's vid here ❗
                 ],
             }
